@@ -1,0 +1,12 @@
+@import "./global/global.css";
+@import "./global/header.css";
+
+/* Home */
+@import "./home/about-me.css";
+@import "./home/services.css";
+@import "./home/jamudo.css";
+
+/* Utilitarios */
+@import "./utilitarios/cores.css";
+@import "./utilitarios/utilitarios.css";
+@import "./utilitarios/tipografia.css";

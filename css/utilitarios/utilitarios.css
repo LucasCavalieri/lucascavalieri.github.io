@@ -1,0 +1,23 @@
+.container {
+  max-width: 1600px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+.btn {
+  padding: 16px 32px;
+  display: inline-block;
+  border-radius: 4px;
+  text-transform: uppercase;
+  color: #fff;
+  background: #704214;
+  font-size: 18px;
+}
+
+.point {
+  color: var(--cor-0);
+}
+
+.point-2 {
+  color: var(--cor-6);
+}

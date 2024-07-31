@@ -1,0 +1,32 @@
+.font-p {
+  font-family: "Zain", sans-serif;
+  font-weight: 900;
+  line-height: 2rem;
+  font-size: 2rem;
+}
+
+.font-a {
+  font-family: "Zain", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.font-h1 {
+  font-family: "Zain", sans-serif;
+  font-weight: 900;
+  font-size: 6rem;
+  line-height: 6rem;
+}
+
+.font-h2 {
+  font-family: "Zain", sans-serif;
+  font-weight: 900;
+  font-size: 4.5rem;
+}
+
+.font-h3 {
+  font-family: "Zain", sans-serif;
+  font-weight: 900;
+  font-size: 3rem;
+  line-height: 2rem;
+}

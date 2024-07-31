@@ -1,0 +1,44 @@
+.services-bg {
+  background-color: var(--cor-bg);
+}
+
+.container-services {
+  padding: 40px 0px;
+}
+
+.services {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+  position: relative;
+}
+
+.services-item {
+  background-color: var(--cor-3);
+  border-radius: 10%;
+  padding: 50px 50px;
+  height: 600px;
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.services-title {
+  padding: 40px 40px;
+}
+
+.services-nav {
+  display: flex;
+}
+
+.services-item-title {
+  font-family: "Zain", sans-serif;
+  font-weight: 900;
+  font-size: 3rem;
+  line-height: 2rem;
+  color: var(--cor-6);
+}
+
+.title-number {
+  font-family: "Zain", sans-serif;
+  font-size: 2rem;
+}
