@@ -2,8 +2,8 @@
   background-color: var(--cor-bg);
 }
 
-.container-services {
-  padding: 40px 0px;
+.services-container {
+  padding-bottom: 60px;
 }
 
 .services {
@@ -20,17 +20,18 @@
   height: 600px;
   display: grid;
   grid-template-columns: 1fr;
+  box-shadow: 10px 10px var(--cor-0);
 }
 
 .services-title {
   padding: 40px 40px;
 }
 
-.services-nav {
+.services-item-nav {
   display: flex;
 }
 
-.services-item-title {
+.services-item-office {
   font-family: "Zain", sans-serif;
   font-weight: 900;
   font-size: 3rem;
@@ -38,7 +39,30 @@
   color: var(--cor-6);
 }
 
+.services-item-description {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.services-item-skills {
+  margin-bottom: 10px;
+}
+
+.services-default {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
 .title-number {
   font-family: "Zain", sans-serif;
+  font-size: 2rem;
+}
+.services-item-company {
+  margin-bottom: 20px;
+}
+
+.teste {
   font-size: 2rem;
 }
