@@ -3,8 +3,9 @@
 
 /* Home */
 @import "./home/about-me.css";
-@import "./home/services.css";
-@import "./home/jamudo.css";
+@import "./home/jobs.css";
+@import "./home/skills.css";
+@import "./home/education.css";
 
 /* Utilitarios */
 @import "./utilitarios/cores.css";

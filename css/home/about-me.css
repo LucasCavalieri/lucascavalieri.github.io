@@ -29,6 +29,11 @@
   z-index: 999;
 }
 
+.about-me-social-network {
+  display: flex;
+  gap: 20px;
+}
+
 .about-me-content-image {
   display: flex;
   justify-content: center;
@@ -75,5 +80,46 @@
   }
   .about-me-image {
     height: 500px;
+  }
+}
+
+@media (max-width: 600px) {
+  .about-me {
+    grid-template-columns: 1fr;
+    padding: 0px;
+  }
+  .about-me-content {
+    padding: 20px 20px;
+  }
+  .about-me-p {
+    max-width: 30ch;
+  }
+  .about-me-content-image::before {
+    content: "";
+    width: 200px;
+    height: 200px;
+    background-color: var(--cor-6);
+    border-radius: 100%;
+    position: absolute;
+    display: inline-block;
+    margin-top: -200px;
+    margin-right: -300px;
+    z-index: 1;
+    animation: flutuar-before 1.5s infinite ease-in-out;
+  }
+  .title {
+    margin-bottom: 10px;
+  }
+  .about-me-p {
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 400px) {
+  .about-me-image {
+    display: none;
+  }
+  .about-me-content-image::before {
+    display: none;
   }
 }

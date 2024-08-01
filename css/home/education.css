@@ -1,0 +1,22 @@
+.education {
+  display: grid;
+  grid-template-columns: 1fr;
+  height: 500px;
+  color: #fff;
+}
+
+.education-card {
+  background-color: var(--cor-bg);
+}
+
+@media (max-width: 600px) {
+  .education-bg {
+    display: none;
+  }
+}
+
+@media (max-width: 400px) {
+  .education-bg {
+    display: none;
+  }
+}

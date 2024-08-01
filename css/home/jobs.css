@@ -1,0 +1,119 @@
+.jobs-bg {
+  background-color: var(--cor-bg);
+}
+
+.jobs-container {
+  padding-bottom: 60px;
+}
+
+.jobs {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+  position: relative;
+}
+
+.jobs-item {
+  background-color: var(--cor-3);
+  border-radius: 10%;
+  padding: 50px 50px;
+  height: 600px;
+  display: grid;
+  grid-template-columns: 1fr;
+  box-shadow: 10px 10px var(--cor-0);
+}
+
+.jobs-title {
+  padding: 40px 40px;
+}
+
+.jobs-item-nav {
+  display: flex;
+}
+
+.jobs-item-office {
+  font-family: "Zain", sans-serif;
+  font-weight: 900;
+  font-size: 3rem;
+  line-height: 2rem;
+  color: var(--cor-6);
+}
+
+.jobs-item-description {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.jobs-item-skills {
+  margin-bottom: 10px;
+}
+
+.jobs-default {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.title-number {
+  font-family: "Zain", sans-serif;
+  font-size: 2rem;
+}
+.jobs-item-company {
+  margin-bottom: 20px;
+}
+
+.teste {
+  font-size: 2rem;
+}
+
+@media (max-width: 600px) {
+  .jobs {
+    grid-template-columns: 1fr;
+    padding: 20px 20px;
+  }
+  .jobs-item {
+    height: 800px;
+    padding: 30px 30px;
+    border-radius: 10%;
+  }
+  .jobs-item-company {
+    margin: 10px;
+  }
+  .jobs-default {
+    margin-bottom: 20px;
+  }
+  .jobs-item-description {
+    margin-bottom: 0px;
+  }
+  .jobs-item-skills {
+    margin-bottom: 0px;
+  }
+  .jobs-item-nav {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 400px) {
+  .jobs-item-description {
+    display: none;
+  }
+  .jobs-item-skills {
+    display: none;
+  }
+  .jobs-item-nav {
+    display: none;
+  }
+  .jobs-item {
+    height: 140px;
+    padding: 0px;
+    border-radius: 0px;
+  }
+  .jobs-title {
+    padding: 10px 40px;
+  }
+  .jobs-default {
+    gap: 0px;
+  }
+}

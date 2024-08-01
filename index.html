@@ -17,31 +17,59 @@
     <header class="header-bg">
       <div class="header container">
         <img class="header-logo" src="./img/icon/rocket.svg" alt="" />
-        <nav>
+        <nav class="menu-hamburger">
+          <input id="menu-hamburguer" type="checkbox" />
+          <label for="menu-hamburguer">
+            <div class="menu">
+              <span class="hamburguer"></span>
+            </div>
+          </label>
+
           <ul class="header-navbar font-a">
-            <li><a href="#">About us</a></li>
-            <li><a href="#">Experiences</a></li>
-            <li><a href="#">Academic Education</a></li>
-            <li><a href="#">Projects</a></li>
+            <li><a href="#about-me">About us</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#jobs">Jobs</a></li>
+            <li><a href="#">Education</a></li>
+            <li><a href="#">Projets</a></li>
             <li><a href="#">Contact</a></li>
-            <li>
-              <a href="#"
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <section class="about-me-bg" id="about-me">
+      <div class="about-me container">
+        <div class="about-me-content">
+          <h1 class="title font-h1 cor-6">
+            I am a front end developer<span class="point">.</span>
+          </h1>
+          <p class="about-me-p font-p cor-1">
+            My name is Lucas Cavalieri, I'm 22 years old, I was born and raised
+            in São Paulo and currently live in the countryside. I started my
+            studies in technology in high school, studying Computer Technician
+            at Etec. I'm currently studying Systems Analysis and Development at
+            Eniac college. I have front end experience in html, css and
+            javascript, and back end experience in php, python and node.js.
+          </p>
+          <ul class="about-me-social-network">
+            <li class="social-network">
+              <a href="https://www.linkedin.com/in/lucascavalieri"
                 ><img
                   class="header-icon"
                   src="./img/icon/icon-linkedin.svg"
                   alt=""
               /></a>
             </li>
-            <li>
-              <a href="#"
+            <li class="social-network">
+              <a href="https://www.instagram.com/lucaascavalieri/?hl=pt-br"
                 ><img
                   class="header-icon"
                   src="./img/icon/icon-instagram.svg"
                   alt=""
               /></a>
             </li>
-            <li>
-              <a href="#"
+            <li class="social-network">
+              <a href="https://w.app/lucascavalieri"
                 ><img
                   class="header-icon"
                   src="./img/icon/icon-whatsapp.svg"
@@ -49,22 +77,6 @@
               /></a>
             </li>
           </ul>
-        </nav>
-      </div>
-    </header>
-
-    <section class="about-me-bg">
-      <div class="about-me container">
-        <div class="about-me-content">
-          <h1 class="title font-h1 cor-6">
-            I am a front end developer<span class="point">.</span>
-          </h1>
-          <p class="about-me-p font-p cor-1">
-            My name is Lucas Cavalieri, I'm 22 years old, born and raised in São
-            Paulo and currently living in the Interior. I started my studies in
-            the technology area in high school, I studied IT Technician at the
-            Etec Institution.
-          </p>
         </div>
         <div class="about-me-content-image">
           <img class="about-me-image" src="./img/eu.JPG" alt="" />
@@ -72,30 +84,64 @@
       </div>
     </section>
 
-    <section class="services-bg">
-      <div class="services-container container">
-        <h2 class="services-title font-h2 cor-1">
-          services <span class="point-2">.</span>
+    <section class="skills-bg" id="skills">
+      <div class="skills container">
+        <h2 class="font-h2 cor-1 caption">
+          skills <span class="point-2">.</span>
         </h2>
-        <div class="services">
-          <div class="services-item">
-            <div class="services-default">
+        <ul class="skills-list">
+          <li class="skills-item">
+            <img src="./img/icon/icon-html.svg" alt="" />
+          </li>
+          <li class="skills-item">
+            <img src="./img/icon/icon-json.svg" alt="" />
+          </li>
+          <li class="skills-item">
+            <img src="./img/icon/icon-css.svg" alt="" />
+          </li>
+          <li class="skills-item">
+            <img src="./img/icon/icon-php.svg" alt="" />
+          </li>
+          <li class="skills-item">
+            <img src="./img/icon/icon-github.svg" alt="" />
+          </li>
+          <li class="skills-item">
+            <img src="./img/icon/icon-photoshop.svg" alt="" />
+          </li>
+          <li class="skills-item">
+            <img src="./img/icon/icon-ilustrator.svg" alt="" />
+          </li>
+          <li class="skills-item">
+            <img src="./img/icon/icon-figma.svg" alt="" />
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="jobs-bg" id="jobs">
+      <div class="jobs-container container">
+        <h2 class="jobs-title font-h2 cor-1">
+          jobs <span class="point-2">.</span>
+        </h2>
+        <div class="jobs">
+          <div class="jobs-item">
+            <div class="jobs-default">
               <img
-                class="services-default-img"
+                class="jobs-default-img"
                 src="./img/icon/icon-computador.svg"
                 alt=""
               />
               <div>
-                <h3 class="services-item-company font-h3 cor-5 h3-item-1">
+                <h3 class="jobs-item-company font-h3 cor-5 h3-item-1">
                   Mister Donuts
                   <span class="teste">- 2022 - 2024</span>
                 </h3>
-                <span class="services-item-office cor-5 font-a"
+                <span class="jobs-item-office cor-5 font-a"
                   >Marketing manager</span
                 >
               </div>
             </div>
-            <p class="services-item-description font-p cor-1">
+            <p class="jobs-item-description font-p cor-1">
               Manager of comprehensive marketing campaigns, from strategic
               planning to implementation and performance analysis. My experience
               encompasses the effective launch of products on the market, with a
@@ -105,50 +151,50 @@
               Facebook Ads, boosting target audience reach and engagement
               through solid social media strategies.
             </p>
-            <h4 class="services-item-skills font-h3">Skills</h4>
-            <ul class="services-item-nav">
-              <li class="services-item-nav-item">
+            <h4 class="jobs-item-skills font-h3">Skills</h4>
+            <ul class="jobs-item-nav">
+              <li class="jobs-item-nav-item">
                 <img src="./img/icon/icon-instagram.svg" alt="" />
               </li>
-              <li class="services-item-nav-item">
+              <li class="jobs-item-nav-item">
                 <img src="./img/icon/icon-linkedin.svg" alt="" />
               </li>
-              <li class="services-item-nav-item">
+              <li class="jobs-item-nav-item">
                 <img src="./img/icon/icon-facebook.svg" alt="" />
               </li>
-              <li class="services-item-nav-item">
+              <li class="jobs-item-nav-item">
                 <img src="./img/icon/icon-www.svg" alt="" />
               </li>
-              <li class="services-item-nav-item">
+              <li class="jobs-item-nav-item">
                 <img src="./img/icon/icon-ilustrator.svg" alt="" />
               </li>
-              <li class="services-item-nav-item">
+              <li class="jobs-item-nav-item">
                 <img src="./img/icon/icon-photoshop.svg" alt="" />
               </li>
-              <li class="services-item-nav-item">
+              <li class="jobs-item-nav-item">
                 <img src="./img/icon/icon-figma.svg" alt="" />
               </li>
             </ul>
           </div>
 
-          <div class="services-item">
-            <div class="services-default">
+          <div class="jobs-item">
+            <div class="jobs-default">
               <img
-                class="services-default-img"
+                class="jobs-default-img"
                 src="./img/icon/icon-professor.svg"
                 alt=""
               />
               <div>
-                <h3 class="services-item-company font-h3 cor-5 h3-item-1">
+                <h3 class="jobs-item-company font-h3 cor-5 h3-item-1">
                   Digital House
                   <span class="teste">- 2020 - 2021</span>
                 </h3>
-                <span class="services-item-office cor-5 font-a"
+                <span class="jobs-item-office cor-5 font-a"
                   >Front end teacher</span
                 >
               </div>
             </div>
-            <p class="services-item-description font-p cor-1">
+            <p class="jobs-item-description font-p cor-1">
               Front-End Development Instructor, where I taught classes covering
               the fundamentals and techniques of HTML, CSS, Bootstrap, Git and
               JavaScript. Additionally, I played an active role in managing
@@ -158,21 +204,21 @@
               engaging learning, adapted to the needs and skill levels of
               students.
             </p>
-            <h4 class="services-item-skills font-h3">Skills</h4>
-            <ul class="services-item-nav">
-              <li class="services-item-nav-item">
+            <h4 class="jobs-item-skills font-h3">Skills</h4>
+            <ul class="jobs-item-nav">
+              <li class="jobs-item-nav-item">
                 <img src="./img/icon/icon-html.svg" alt="" />
               </li>
-              <li class="services-item-nav-item">
+              <li class="jobs-item-nav-item">
                 <img src="./img/icon/icon-json.svg" alt="" />
               </li>
-              <li class="services-item-nav-item">
+              <li class="jobs-item-nav-item">
                 <img src="./img/icon/icon-css.svg" alt="" />
               </li>
-              <li class="services-item-nav-item">
+              <li class="jobs-item-nav-item">
                 <img src="./img/icon/icon-github.svg" alt="" />
               </li>
-              <li class="services-item-nav-item">
+              <li class="jobs-item-nav-item">
                 <img src="./img/icon/icon-.svg" alt="" />
               </li>
             </ul>
@@ -181,37 +227,19 @@
       </div>
     </section>
 
-    <section class="jamudo-bg">
-      <div class="jamudo container">
-        <h2 class="font-h2 cor-1 caption">
-          languages <span class="point-2">.</span>
-        </h2>
-        <ul class="jamudo-list">
-          <li class="jamudo-item">
-            <img src="./img/icon/icon-html.svg" alt="" />
-          </li>
-          <li class="jamudo-item">
-            <img src="./img/icon/icon-json.svg" alt="" />
-          </li>
-          <li class="jamudo-item">
-            <img src="./img/icon/icon-css.svg" alt="" />
-          </li>
-          <li class="jamudo-item">
-            <img src="./img/icon/icon-php.svg" alt="" />
-          </li>
-          <li class="jamudo-item">
-            <img src="./img/icon/icon-github.svg" alt="" />
-          </li>
-          <li class="jamudo-item">
-            <img src="./img/icon/icon-photoshop.svg" alt="" />
-          </li>
-          <li class="jamudo-item">
-            <img src="./img/icon/icon-ilustrator.svg" alt="" />
-          </li>
-          <li class="jamudo-item">
-            <img src="./img/icon/icon-figma.svg" alt="" />
-          </li>
-        </ul>
+    <section class="education-bg" id="education">
+      <div class="education container">
+        <div class="education-card">
+          <h2>Análise e Desenvolvimento de Sistemas - Eniac</h2>
+          <span>2021 - 2024</span>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatem
+            minima possimus perferendis odit laborum nesciunt, repellendus autem
+            numquam, est consectetur assumenda culpa, asperiores libero neque
+            doloribus nobis fuga! Alias, consequuntur?
+          </p>
+        </div>
+        <div></div>
       </div>
     </section>
   </body>
